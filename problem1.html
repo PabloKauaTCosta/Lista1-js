@@ -6,21 +6,12 @@
     <title>Cálculo do valor total de uma compra</title>
 </head>
 <body>
-    <style>
-     
-    </style>
     <script>
-        let quantCaderno = Number(prompt("Informe a quantidade de cadernos: "))
-        let totalAPagar
-        const precoCaderno = 12.50;
+        let quantCaderno = Number(prompt("Informe a quantidade de cadernos:"));
+        let precoCaderno = 12.50;
+        let totalAPagar = precoCaderno * quantCaderno;
 
-        totalAPagar = quantCaderno * precoCaderno
-
-        alert("O valor total a pagar é de: R$" + totalAPagar + 
-        "  Quantidade de cadernos comprados: " + quantCaderno)
-
-
-
+        alert("O valor total a pagar de " + quantCaderno + " cadernos é de R$" + totalAPagar);
     </script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Média de vendas semanais</title>
+</head>
+<body>
+    <script>
+        let totalSegunda = Number(prompt("Informe o valor total das vendas de segunda-feira:"));
+        let totalTerca = Number(prompt("Informe o valor total das vendas de terça-feira:"));
+        let totalQuarta = Number(prompt("Informe o valor total das vendas de quarta-feira:"));
+        let totalQuinta = Number(prompt("Informe o valor total das vendas de quinta-feira:"));
+        let totalSexta = Number(prompt("Informe o valor total das vendas de sexta-feira:"));
+        let totalSabado = Number(prompt("Informe o valor total das vendas de sábado:"));
+        let totalDomingo = Number(prompt("Informe o valor total das vendas de domingo:"));
+        let totalSemana = totalSegunda + totalTerca + totalQuarta + totalQuinta + totalSexta + totalSabado + totalDomingo;
+        let mediaSemana = totalSemana / 7;
+
+        alert("Valor total vendido na semana é de R$" + totalSemana);
+        alert("A média semanal é de R$" + mediaSemana);
+    </script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +8,14 @@
 </head>
 <body>
     <script>
-        let valorFornecedor = 25.00
-        let valorVenda = 40.00
-        let quantVendido = Number(prompt("Quantas camisas compradas?"))
-        let quantSemLucro = valorFornecedor * quantVendido
-        let QuantComLucro = valorVenda * quantVendido
-        let lucroVenda = QuantComLucro - quantSemLucro
+        let valorFornecedor = 25.00;
+        let valorVenda = 40.00;
+        let quantVendida = Number(prompt("Informe a quantidade de camisas vendidas:"));
+        let quantSemLucro = valorFornecedor * quantVendida;
+        let QuantComLucro = valorVenda * quantVendida;
+        let lucroVenda = QuantComLucro - quantSemLucro;
 
-        alert("Valor total de lucros: R$" + lucroVenda)
+        alert("Valor total de lucros é: R$" + lucroVenda);
     </script>
 </body>
 </html>

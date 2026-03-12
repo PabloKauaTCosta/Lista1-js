@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Cálculo de estoque restante</title>
+</head>
+<body>
+   <script>
+    let estoqueInicial = 120;
+    let quantProdutoVendido = Number(prompt("Informe a quantidade de produtos vendidos durante o dia: "));
+    let estoqueRestante = estoqueInicial - quantProdutoVendido;
+
+    alert("O estoque inicial é de 120 unidades.");
+    alert("Quantidade de produtos vendidos é de " + quantProdutoVendido +"." + " Quantidade de produtos que restaram em estoque: " + estoqueRestante);
+    </script>
+</body>
+</html>
