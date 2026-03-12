@@ -18,14 +18,14 @@ Peguei o valor total de vendas do mês e tirei a porcentagem de 5%, depois somei
 problem6: Média de vendas semanais.
 Peguei o valor total de vendas de cada dia da semana, depois somei ele e dividi por 7, totalizando a media semanal e o valor total da semana.
 
-problem7:
+problem7: Cálculo de estoque restante.
+Peguei a quantidade inicial fixa de 120 unidades e subtraí a quantidade de produtos vendidos informada pelo usuário, resultando no saldo atual disponível em estoque.
 
+problem8: Aumento de preço de produto.
+Peguei o preço atual informado, calculei 15% desse valor para descobrir a quantia do reajuste e somei esse aumento ao preço original para obter o novo valor final.
 
-problem8:
+problem9: Cálculo de parcelas.
+Peguei o valor total da compra e dividi pelo número fixo de 5 parcelas (ou pela escolha do usuário) para encontrar o valor exato de cada prestação mensal sem juros.
 
-
-problem9:
-
-
-problem10:
-
+problem10: Juros compostos.
+Peguei o valor inicial investido e a quantidade de meses, então apliquei a taxa de 2% de forma acumulativa mês a mês (juros sobre juros) para chegar ao montante final do investimento.
