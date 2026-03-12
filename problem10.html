@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juros compostos</title>
+</head>
+<body>
+    <script>
+        let valorInvestimento = Number(prompt("Informe o valor que você deseja investir:"));
+        let tempoInvestimento = Number(prompt("Informe o valor que você deseja investir:"));
+        let taxaInvestimento = valorInvestimento * 2 / 10;
+        let finalInvestimento = valorInvestimento + (taxaInvestimento * tempoInvestimento);
+
+        alert("Valor de investimento: R$" + valorInvestimento + ".");
+        alert("Tempo de investimento: " + tempoInvestimento + " meses.");
+        alert("Valor final: R$" + finalInvestimento + ".");
+    </script>
+</body>
+</html>

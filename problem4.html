@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,12 @@
 </head>
 <body>
     <script>
-        let valorEmprestimo = 1.000
-        let quantMes = Number(prompt("Em quantos meses você pretende quitar sua dívida?"))
-        let valorFinal = 
+        let valorEmprestimo = 1000;
+        let porcentagemEmprestimo = valorEmprestimo * 5 / 100;
+        let quantMes = Number(prompt("Em quantos meses você pretende quitar sua dívida?"));
+        let valorPagar = (valorEmprestimo / quantMes) + porcentagemEmprestimo;
+
+        alert(valorPagar);
     </script>
 </body>
 </html>
